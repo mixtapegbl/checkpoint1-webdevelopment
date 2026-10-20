@@ -52,3 +52,13 @@ console.log(herois[2]);
 console.log(herois[3]);
 console.log(herois[4]);
 
+console.log("***************************************************");
+console.log("Exercício 5");
+console.log("***************************************************");
+
+let temPermissao = true;
+
+// Estrutura básica da ternária: (condição) ? se_verdadeiro : se_falso
+let resultado = temPermissao ? "Tem permissão" : "Não tem permissão";
+
+console.log(resultado);
