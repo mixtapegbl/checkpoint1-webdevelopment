@@ -1,0 +1,15 @@
+===========================================================
+FIAP - CHECKPOINT 1 - WEB DEVELOPMENT
+===========================================================
+
+GRUPO: Mixtape
+TURMA: 1ESPA
+
+INTEGRANTES:
+- Nome: Gabriel Souza
+  RM: [Insere aqui o teu RM]
+
+LINK DO REPOSITÓRIO GITHUB:
+- https://github.com[TeuUsuario]/[NomeDoRepositorio]
+
+===========================================================
