@@ -110,3 +110,29 @@ let nomeDev = "Gabriel";
 
 // Junta o texto com a variável usando as crases (``)
 console.log(`Olá dev ${nomeDev}`);
+
+console.log("***************************************************");
+console.log("Exercício 9");
+console.log("***************************************************");
+
+let senhaAtual = "1234";
+let novaSenha = "9999"; // Altere para "1234" se quiser testar o erro
+
+if (novaSenha !== senhaAtual) {
+    console.log("Senha alterada com sucesso");
+} else {
+    console.log("A nova senha deve ser diferente da atual");
+}
+
+console.log("***************************************************");
+console.log("Exercício 9");
+console.log("***************************************************");
+
+let senhaAtual = "1234";
+let novaSenha = "9999"; // Altere para "1234" se quiser testar o erro
+
+if (novaSenha !== senhaAtual) {
+    console.log("Senha alterada com sucesso");
+} else {
+    console.log("A nova senha deve ser diferente da atual");
+}
