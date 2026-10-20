@@ -38,3 +38,17 @@ console.log("***************************************************");
 for (let i = 1; i <= 10; i++) {
     console.log("o valor da contagem é:", i);
 }
+
+console.log("***************************************************");
+console.log("Exercício 4");
+console.log("***************************************************");
+
+let herois = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
+
+// Acedendo a cada posição da lista manualmente pelo índice
+console.log(herois[0]);
+console.log(herois[1]);
+console.log(herois[2]);
+console.log(herois[3]);
+console.log(herois[4]);
+
