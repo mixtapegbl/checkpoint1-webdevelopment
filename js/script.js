@@ -76,3 +76,27 @@ if (usuarioDigitado === "admin" && senhaDigitada === "1234") {
 } else {
     console.log("Falha de autenticação");
 }
+
+console.log("***************************************************");
+console.log("Exercício 7");
+console.log("***************************************************");
+
+// Criamos 7 variáveis simples para as notas
+let n1 = 7;
+let n2 = 6;
+let n3 = 8;
+let n4 = 5;
+let n5 = 6;
+let n6 = 7;
+let n7 = 9;
+
+let media = (n1 + n2 + n3 + n4 + n5 + n6 + n7) / 7;
+
+console.log("Média do aluno:");
+console.log(media);
+
+if (media >= 6) {
+    console.log("Aprovado");
+} else {
+    console.log("Reprovado");
+}
