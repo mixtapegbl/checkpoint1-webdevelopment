@@ -2,12 +2,10 @@ console.log("***************************************************");
 console.log("Exercício 1");
 console.log("***************************************************");
 
-// Vamos apenas testar direto os operadores na consola
+// Teste direto dos operadores na consola
 console.log(10 != 5);   // Mostra true porque 10 é diferente de 5
 console.log(10 === 10); // Mostra true porque são iguais em valor e tipo
 console.log(10 >= 20);  // Mostra false porque 10 não é maior ou igual a 20
-
-
 
 
 console.log("***************************************************");
@@ -39,6 +37,7 @@ for (let i = 1; i <= 10; i++) {
     console.log("o valor da contagem é:", i);
 }
 
+
 console.log("***************************************************");
 console.log("Exercício 4");
 console.log("***************************************************");
@@ -52,6 +51,7 @@ console.log(herois[2]);
 console.log(herois[3]);
 console.log(herois[4]);
 
+
 console.log("***************************************************");
 console.log("Exercício 5");
 console.log("***************************************************");
@@ -62,6 +62,7 @@ let temPermissao = true;
 let resultado = temPermissao ? "Tem permissão" : "Não tem permissão";
 
 console.log(resultado);
+
 
 console.log("***************************************************");
 console.log("Exercício 6");
@@ -76,6 +77,7 @@ if (usuarioDigitado === "admin" && senhaDigitada === "1234") {
 } else {
     console.log("Falha de autenticação");
 }
+
 
 console.log("***************************************************");
 console.log("Exercício 7");
@@ -111,18 +113,6 @@ let nomeDev = "Gabriel";
 // Junta o texto com a variável usando as crases (``)
 console.log(`Olá dev ${nomeDev}`);
 
-console.log("***************************************************");
-console.log("Exercício 9");
-console.log("***************************************************");
-
-let senhaAtual = "1234";
-let novaSenha = "9999"; // Altere para "1234" se quiser testar o erro
-
-if (novaSenha !== senhaAtual) {
-    console.log("Senha alterada com sucesso");
-} else {
-    console.log("A nova senha deve ser diferente da atual");
-}
 
 console.log("***************************************************");
 console.log("Exercício 9");
@@ -136,3 +126,17 @@ if (novaSenha !== senhaAtual) {
 } else {
     console.log("A nova senha deve ser diferente da atual");
 }
+
+
+console.log("***************************************************");
+console.log("Exercício 10");
+console.log("***************************************************");
+
+let valorProduto = 100;
+let valorDesconto = 15;
+
+// Subtrai o desconto do preço original
+let valorFinal = valorProduto - valorDesconto;
+
+console.log("Valor final com desconto:");
+console.log(valorFinal);
