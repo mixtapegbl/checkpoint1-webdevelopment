@@ -62,3 +62,17 @@ let temPermissao = true;
 let resultado = temPermissao ? "Tem permissão" : "Não tem permissão";
 
 console.log(resultado);
+
+console.log("***************************************************");
+console.log("Exercício 6");
+console.log("***************************************************");
+
+let usuarioDigitado = "admin";
+let senhaDigitada = "1234";
+
+// Compara se o utilizador e a senha estão corretos ao mesmo tempo
+if (usuarioDigitado === "admin" && senhaDigitada === "1234") {
+    console.log("Login realizado com sucesso");
+} else {
+    console.log("Falha de autenticação");
+}
