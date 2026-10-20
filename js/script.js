@@ -12,8 +12,9 @@ console.log("***************************************************");
 console.log("Exercício 2");
 console.log("***************************************************");
 
-let peso = 70;
-let altura = 1.75;
+// Pop-up perguntando o peso e a altura do usuário
+let peso = prompt("Digite o seu peso (ex: 70):");
+let altura = prompt("Digite a sua altura (ex: 1.75):");
 let imc = peso / (altura * altura); // Fórmula básica
 
 console.log("IMC:");
@@ -56,7 +57,9 @@ console.log("***************************************************");
 console.log("Exercício 5");
 console.log("***************************************************");
 
-let temPermissao = true;
+// Pop-up perguntando a idade para verificar a permissão
+let idadeUsuario = prompt("Digite a sua idade:");
+let temPermissao = idadeUsuario >= 18; // Se for maior ou igual a 18, tem permissão (true)
 
 // Estrutura básica da ternária: (condição) ? se_verdadeiro : se_falso
 let resultado = temPermissao ? "Tem permissão" : "Não tem permissão";
@@ -68,8 +71,9 @@ console.log("***************************************************");
 console.log("Exercício 6");
 console.log("***************************************************");
 
-let usuarioDigitado = "admin";
-let senhaDigitada = "1234";
+// Pop-up perguntando as credenciais de acesso
+let usuarioDigitado = prompt("Digite o nome de usuário para login:");
+let senhaDigitada = prompt("Digite a senha para login:");
 
 // Compara se o utilizador e a senha estão corretos ao mesmo tempo
 if (usuarioDigitado === "admin" && senhaDigitada === "1234") {
@@ -108,7 +112,8 @@ console.log("***************************************************");
 console.log("Exercício 8");
 console.log("***************************************************");
 
-let nomeDev = "Gabriel";
+// Pop-up perguntando o nome do desenvolvedor
+let nomeDev = prompt("Digite o seu nome:");
 
 // Junta o texto com a variável usando as crases (``)
 console.log(`Olá dev ${nomeDev}`);
@@ -119,12 +124,19 @@ console.log("Exercício 9");
 console.log("***************************************************");
 
 let senhaAtual = "1234";
-let novaSenha = "9999"; // Altere para "1234" se quiser testar o erro
 
-if (novaSenha !== senhaAtual) {
-    console.log("Senha alterada com sucesso");
+// Pop-up para alteração de senha e confirmação
+let novaSenha = prompt("Digite a Nova Senha:");
+let confirmacaoSenha = prompt("Confirme a Nova Senha:");
+
+if (novaSenha === confirmacaoSenha) {
+    if (novaSenha !== senhaAtual) {
+        console.log("Senha alterada com sucesso");
+    } else {
+        console.log("A nova senha deve ser diferente da atual");
+    }
 } else {
-    console.log("A nova senha deve ser diferente da atual");
+    console.log("Erro: A confirmação de senha não confere");
 }
 
 
