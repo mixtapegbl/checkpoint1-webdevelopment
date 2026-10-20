@@ -100,3 +100,13 @@ if (media >= 6) {
 } else {
     console.log("Reprovado");
 }
+
+
+console.log("***************************************************");
+console.log("Exercício 8");
+console.log("***************************************************");
+
+let nomeDev = "Gabriel";
+
+// Junta o texto com a variável usando as crases (``)
+console.log(`Olá dev ${nomeDev}`);
